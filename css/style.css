@@ -8252,21 +8252,21 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 
 .timer {
   text-align: center;
+}
 
-  div {
-    display: inline-block;
-    font-family: 'Noteworthy Light';
-    font-size: 28px;
-    font-weight: 500;
-    color: #fff;
-    min-width: 60px;
-    padding: 10px;
-    
-    span {
-      display: block;
-      color: #fff;
-      font-size: 18px;
-      font-weight: 400;
-    }
-  }
+.timer div {
+  display: inline-block;
+  font-family: 'Noteworthy Light';
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  min-width: 60px;
+  padding: 10px;
+}
+
+.timer div span {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;  
 }
