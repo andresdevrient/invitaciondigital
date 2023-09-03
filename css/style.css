@@ -586,18 +586,18 @@ body .btn-eight {
 }
 body .btn-eight:hover {background: var(--prime-three);}
 body .btn-nine {
-  color: #000;
+  color: #494a53;
   line-height: 55px;
   border-radius: 28px;
   font-size: 15px;
   font-weight: 400;
   padding: 0 26px;
   position: relative;
-  background: #f0f0f0;
+  background: #f1f1f1;
   transition: all 0.3s ease-in-out;
 }
 body .btn-nine.border3 {border-radius: 3px;}
-body .btn-nine:hover {background: #d4d4d4; color: #000;}
+body .btn-nine:hover {background: #f5f5f5; color: #000;}
 body .btn-ten {
   color: #000; 
   padding: 0 24px;
@@ -8250,11 +8250,11 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
 .form-style-five [class*="btn-"] {font-size: 14px; letter-spacing: 0.88px;}
 .form-style-five [class*="btn-"]:hover {background: var(--prime-eight); color: #000;}
 
-.timer {
+.timer-one {
   text-align: center;
 }
 
-.timer div {
+.timer-one div {
   display: inline-block;
   font-family: 'Noteworthy Light';
   font-size: 28px;
@@ -8264,9 +8264,29 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   padding: 10px;
 }
 
-.timer div span {
+.timer-one div span {
   display: block;
   color: #fff;
   font-size: 18px;
+  font-weight: 400;  
+}
+
+.timer-two {
+text-align: center;
+}
+
+.timer-two div {
+  display: inline-block;
+  font-family: 'Noteworthy Light';
+  font-size: 60px;
+  font-weight: 400;
+  color: var(--prime-ten);
+  padding: 8px;
+}
+
+.timer-two div span {
+  display: block;
+  color: #000F5C;
+  font-size: 24px;
   font-weight: 400;  
 }
