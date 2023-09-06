@@ -2832,7 +2832,10 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   font-size: 58px;
   line-height: initial;
 }
-.pricing-table-area-two .plan {font-size: 28px;}
+.pricing-table-area-two .plan-one {font-size: 28px;}
+.pricing-table-area-two .plan-one span {color: var(--prime-ten); font-weight: 500;}
+.pricing-table-area-two .plan-two {font-size: 28px;}
+.pricing-table-area-two .plan-two span {color: var(--prime-three); font-weight: 500;}
 .pricing-table-area-two .pr-header {
   border-bottom: 1px solid #DDDDDD;
 }
@@ -2841,6 +2844,10 @@ body .btn-twentySix:hover:after {top: 0; left: 0;}
   padding-left: 32px;
   margin-bottom: 15px;
   position: relative;
+}
+.pricing-table-area-two .pr-body li span{
+  color: var(--prime-three);
+  font-weight: 500;
 }
 .pricing-table-area-two .pr-body li:before {
   content: "\f272";
